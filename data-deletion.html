@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Deletion - Splito</title>
+    <style>
+        :root {
+            --bg-color: #ffffff;
+            --text-color: #1f2937;
+            --text-secondary: #6b7280;
+            --accent-color: #0891b2;
+            --border-color: #e5e7eb;
+            --code-bg: #f3f4f6;
+            --warning-bg: #fef3c7;
+            --warning-text: #92400e;
+            --success-bg: #d1fae5;
+            --success-text: #065f46;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg-color: #111827;
+                --text-color: #f9fafb;
+                --text-secondary: #9ca3af;
+                --accent-color: #22d3ee;
+                --border-color: #374151;
+                --code-bg: #1f2937;
+                --warning-bg: #78350f;
+                --warning-text: #fef3c7;
+                --success-bg: #064e3b;
+                --success-text: #d1fae5;
+            }
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.7;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            padding: 2rem 1rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            color: var(--accent-color);
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        h3 {
+            font-size: 1.25rem;
+            margin-top: 1.5rem;
+            margin-bottom: 0.75rem;
+        }
+
+        p {
+            margin-bottom: 1rem;
+        }
+
+        ul, ol {
+            margin-left: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        .last-updated {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            margin-bottom: 2rem;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1rem 0;
+        }
+
+        th, td {
+            padding: 0.75rem;
+            text-align: left;
+            border: 1px solid var(--border-color);
+        }
+
+        th {
+            background-color: var(--code-bg);
+        }
+
+        a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        strong {
+            font-weight: 600;
+        }
+
+        .steps {
+            background-color: var(--code-bg);
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin: 1rem 0;
+        }
+
+        .steps ol {
+            margin-left: 1.5rem;
+            margin-bottom: 0;
+        }
+
+        .warning {
+            background-color: var(--warning-bg);
+            color: var(--warning-text);
+            padding: 1rem;
+            border-radius: 8px;
+            margin: 1rem 0;
+        }
+
+        .success {
+            background-color: var(--success-bg);
+            color: var(--success-text);
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            display: inline-block;
+        }
+
+        .partial {
+            background-color: var(--warning-bg);
+            color: var(--warning-text);
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            display: inline-block;
+        }
+
+        .contact-box {
+            background-color: var(--code-bg);
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-top: 2rem;
+        }
+
+        footer {
+            margin-top: 3rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid var(--border-color);
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid var(--border-color);
+            margin: 2rem 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Data Deletion Instructions</h1>
+    <p class="last-updated"><strong>Last Updated:</strong> December 17, 2024</p>
+
+    <h2>How to Delete Your Data from Splito</h2>
+    <p>We respect your right to control your personal data. This page explains how you can delete your data from the Splito application.</p>
+
+    <hr>
+
+    <h2>Option 1: Delete Account from the App (Recommended)</h2>
+    <p>The easiest way to delete your account and all associated data is through the App:</p>
+    
+    <div class="steps">
+        <ol>
+            <li>Open the <strong>Splito</strong> app</li>
+            <li>Go to <strong>Settings</strong> (tap the gear icon)</li>
+            <li>Scroll down to the <strong>Account</strong> section</li>
+            <li>Tap <strong>Delete Account</strong></li>
+            <li>Confirm your decision when prompted</li>
+        </ol>
+    </div>
+
+    <h3>What Gets Deleted:</h3>
+    <table>
+        <tr>
+            <th>Data Type</th>
+            <th>Deletion Status</th>
+        </tr>
+        <tr>
+            <td>Your profile information (name, email, photo)</td>
+            <td><span class="success">✅ Permanently deleted</span></td>
+        </tr>
+        <tr>
+            <td>Your personal expenses</td>
+            <td><span class="success">✅ Permanently deleted</span></td>
+        </tr>
+        <tr>
+            <td>Your reminders</td>
+            <td><span class="success">✅ Permanently deleted</span></td>
+        </tr>
+        <tr>
+            <td>Your push notification tokens</td>
+            <td><span class="success">✅ Permanently deleted</span></td>
+        </tr>
+        <tr>
+            <td>Receipt images you uploaded</td>
+            <td><span class="success">✅ Permanently deleted</span></td>
+        </tr>
+        <tr>
+            <td>Your device-local cached data</td>
+            <td><span class="success">✅ Permanently deleted</span></td>
+        </tr>
+    </table>
+
+    <h3>What Happens to Group Data:</h3>
+    <table>
+        <tr>
+            <th>Data Type</th>
+            <th>Status</th>
+        </tr>
+        <tr>
+            <td>Groups you created (if you're the only member)</td>
+            <td><span class="success">✅ Permanently deleted</span></td>
+        </tr>
+        <tr>
+            <td>Groups with other members</td>
+            <td><span class="partial">⚠️ Your membership is removed, but the group continues for other members</span></td>
+        </tr>
+        <tr>
+            <td>Expenses you added to shared groups</td>
+            <td><span class="partial">⚠️ Expenses remain for other members' records (your name may be anonymized)</span></td>
+        </tr>
+        <tr>
+            <td>Your balance/settlement history in groups</td>
+            <td><span class="partial">⚠️ Records remain for other members' financial accuracy</span></td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h2>Option 2: Request Data Deletion via Email</h2>
+    <p>If you cannot access the App, you can request data deletion by email:</p>
+    
+    <div class="steps">
+        <ol>
+            <li>Send an email to: <strong><a href="mailto:splito.team@gmail.com@gmail.com">splito.team@gmail.com@gmail.com</a></strong></li>
+            <li>Use the subject line: <strong>"Data Deletion Request - Splito"</strong></li>
+            <li>Include the following information:
+                <ul>
+                    <li>Email address associated with your Splito account</li>
+                    <li>Reason for deletion (optional)</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+
+    <h3>Processing Time:</h3>
+    <ul>
+        <li>We will acknowledge your request within <strong>48 hours</strong></li>
+        <li>Your data will be permanently deleted within <strong>30 days</strong></li>
+        <li>You will receive confirmation once deletion is complete</li>
+    </ul>
+
+    <hr>
+
+    <h2>Data Retention After Deletion</h2>
+
+    <h3>Immediately Deleted:</h3>
+    <ul>
+        <li>Profile information</li>
+        <li>Personal expenses</li>
+        <li>Receipt images</li>
+        <li>Push notification tokens</li>
+        <li>Device-specific cached data</li>
+    </ul>
+
+    <h3>Retained for Up to 30 Days:</h3>
+    <ul>
+        <li>Backup copies (for disaster recovery purposes)</li>
+        <li>Server logs containing your anonymized data</li>
+    </ul>
+
+    <h3>May Be Retained:</h3>
+    <ul>
+        <li>Aggregated, anonymized analytics data (cannot identify you)</li>
+        <li>Data required for legal obligations</li>
+    </ul>
+
+    <hr>
+
+    <h2>Account Recovery</h2>
+    <div class="warning">
+        <p><strong>⚠️ Warning:</strong> Account deletion is <strong>permanent and irreversible</strong>.</p>
+    </div>
+    <p>Once your account is deleted:</p>
+    <ul>
+        <li>You cannot recover your data</li>
+        <li>You cannot restore your expenses or groups</li>
+        <li>You will need to create a new account if you want to use Splito again</li>
+    </ul>
+
+    <hr>
+
+    <h2>Third-Party Data</h2>
+    <p>When you delete your account, we also remove your data from our third-party service providers:</p>
+    <table>
+        <tr>
+            <th>Service</th>
+            <th>Data Removed</th>
+        </tr>
+        <tr>
+            <td>Firebase Authentication</td>
+            <td>Authentication credentials</td>
+        </tr>
+        <tr>
+            <td>Firebase Firestore</td>
+            <td>All user documents and subcollections</td>
+        </tr>
+        <tr>
+            <td>Firebase Storage</td>
+            <td>All uploaded receipt images</td>
+        </tr>
+        <tr>
+            <td>Firebase Analytics</td>
+            <td>Historical data is anonymized</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h2>Questions?</h2>
+    <div class="contact-box">
+        <p>If you have questions about data deletion or this policy, please contact us:</p>
+        <p><strong>Email:</strong> <a href="mailto:splito.team@gmail.com@gmail.com">splito.team@gmail.com@gmail.com</a></p>
+    </div>
+
+    <footer>
+        <p>This Data Deletion policy is effective as of December 17, 2024.</p>
+        <p><a href="index.html">← Back to Legal Documents</a></p>
+    </footer>
+</body>
+</html>
