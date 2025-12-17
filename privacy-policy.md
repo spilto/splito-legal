@@ -135,7 +135,7 @@ We may update this Privacy Policy from time to time. We will notify you of any s
 
 If you have any questions about this Privacy Policy or our data practices, please contact us at:
 
-**Email:** splito.team@gmail.com@gmail.com
+**Email:** splito.team@gmail.com
 
 ---
 

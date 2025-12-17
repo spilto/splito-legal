@@ -174,7 +174,7 @@ These Terms, together with the Privacy Policy, constitute the entire agreement b
 
 For questions about these Terms, please contact us at:
 
-**Email:** splito.team@gmail.com@gmail.com
+**Email:** splito.team@gmail.com
 
 ---
 

@@ -44,7 +44,7 @@ The easiest way to delete your account and all associated data is through the Ap
 
 If you cannot access the App, you can request data deletion by email:
 
-1. Send an email to: **splito.team@gmail.com@gmail.com**
+1. Send an email to: **splito.team@gmail.com**
 2. Use the subject line: **"Data Deletion Request - Splito"**
 3. Include the following information:
    - Email address associated with your Splito account
@@ -109,7 +109,7 @@ When you delete your account, we also remove your data from our third-party serv
 
 If you have questions about data deletion or this policy, please contact us:
 
-**Email:** splito.team@gmail.com@gmail.com
+**Email:** splito.team@gmail.com
 
 ---
 
