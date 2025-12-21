@@ -178,4 +178,4 @@ For questions about these Terms, please contact us at:
 
 ---
 
-*These Terms of Service are effective as of December 17, 2024.*
+*These Terms of Service are effective as of December 17, 2025.*

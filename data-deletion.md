@@ -113,4 +113,4 @@ If you have questions about data deletion or this policy, please contact us:
 
 ---
 
-*This Data Deletion policy is effective as of December 17, 2024.*
+*This Data Deletion policy is effective as of December 17, 2025.*

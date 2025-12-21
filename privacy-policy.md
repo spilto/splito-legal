@@ -16,7 +16,7 @@ When you create an account, we collect:
 
 - **Email address** - Used for account identification and communication
 - **Name** - Used for personalization and display within the App
-- **Profile photo** - Optional, used for personalization (if you sign in with Google or Apple)
+- **Profile photo** - Optional, used for personalization 
 
 ### 2. Authentication Data
 
@@ -67,7 +67,7 @@ Your data is stored securely using:
 
 - **Firebase Firestore** - For structured data (expenses, groups, user profiles)
 - **Firebase Storage** - For receipt images
-- **Local device storage (MMKV)** - For offline functionality and caching
+- **Local device storage ** - For offline functionality and caching
 
 ### Security Measures
 
@@ -139,4 +139,4 @@ If you have any questions about this Privacy Policy or our data practices, pleas
 
 ---
 
-*This Privacy Policy is effective as of December 17, 2024.*
+*This Privacy Policy is effective as of December 17, 2025.*
